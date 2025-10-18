@@ -12,14 +12,12 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.vincodev.portfolio",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+        "foregroundImage": "./assets/vincentonyenze.png"
+      }
     },
     "web": {
       "output": "static",
@@ -44,6 +42,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "59656459-7a4b-4535-bcbc-d6211dd35c0a"
+      }
     }
   }
 }
